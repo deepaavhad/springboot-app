@@ -5,8 +5,8 @@ mysql:
   environment:
     - MYSQL_ROOT_PASSWORD=
     - MYSQL_ALLOW_EMPTY_PASSWORD=true
-    - MYSQL_USER=feature_1
+    - MYSQL_USER=feature_2
     - MYSQL_PASSWORD=petclinic123
-    - MYSQL_DATABASE=petclinic
+    - MYSQL_DATABASE=petclinic456
   volumes:
     - "./conf.d:/etc/mysql/conf.d:rw"
